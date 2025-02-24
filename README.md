@@ -24,7 +24,8 @@ Messages follow the format:
 event=<event_name> state=<state_value> duration=<duration_value>
 ``
 
-Example for a short press: event=power state=0 duration=1
+Example for a short press: event=power state=0 duration=1 
+
 Example for a reboot: event=reboot state=1 duration=0.0
 
 Press Duration Calculation:
