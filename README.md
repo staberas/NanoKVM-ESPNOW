@@ -11,10 +11,11 @@ Use the following command to run in the background:
 ##
 Explanation of the Shell Script
 -------------
-GPIO Monitoring:
+**GPIO Monitoring:**
 
 The script monitors the states of the GPIOs /sys/class/gpio/gpio505/value (reboot) and /sys/class/gpio/gpio503/value (power).
-UART Communication:
+
+**UART Communication:**
 
 Sends messages over the specified UART device (/dev/ttyS1).
 Messages follow the format:
@@ -28,7 +29,8 @@ Example for a reboot: event=reboot state=1 duration=0.0
 Press Duration Calculation:
 
 For the power button, the script calculates the duration between press and release (state=1 to state=0).
-Non-Blocking:
+
+**Non-Blocking:**
 
 The script runs in an infinite loop but does not block the system. It checks GPIOs every 0.1 seconds.
 
