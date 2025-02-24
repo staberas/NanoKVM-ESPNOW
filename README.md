@@ -4,7 +4,8 @@
 gpio-monitor.sh must run the esp32's to work and know the nanokvm shutdown/reboot actions
 
 Use the following command to run in the background: 
-./gpio-monitor.sh &
+```./gpio-monitor.sh &```
+(if not found look at your root folder )
 (this will work until the nanokvm loses power or resets)
 
 ---------------------------------------------------
