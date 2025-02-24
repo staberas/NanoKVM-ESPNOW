@@ -3,7 +3,7 @@ import espnow
 import network
 import time
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-# THIS IS THE ESP THAT GOES INSIDE YOUR PC AND RECIEVES COMMANDS FROM THE KVM - BEFORE THAT FIND THE DEVICE MAC ADDRESS 
+# THIS IS THE ESP THAT GOES INSIDE YOUR PC AND RECIEVES COMMANDS FROM THE KVM - BEFORE THAT FIND THE DEVICE MAC ADDRESS  -> look at the trasmitter code FIRST!!!
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # GPIO Outputs (connected to optocouplers, active LOW)
 gpio_reboot = machine.Pin(3, machine.Pin.OUT)  # GPIO3 for Reboot
