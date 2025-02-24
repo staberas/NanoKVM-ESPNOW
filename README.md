@@ -24,11 +24,11 @@ Messages follow the format:
 event=<event_name> state=<state_value> duration=<duration_value>
 ``
 
-Example for a short press: event=power state=0 duration=1 
+- Example for a short press: event=power state=0 duration=1 
 
-Example for a reboot: event=reboot state=1 duration=0.0
+- Example for a reboot: event=reboot state=1 duration=0.0
 
-Press Duration Calculation:
+**Press Duration Calculation:**
 
 For the power button, the script calculates the duration between press and release (state=1 to state=0).
 
